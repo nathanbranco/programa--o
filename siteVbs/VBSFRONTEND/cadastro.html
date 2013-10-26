@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+ <head><title>VBS comerecial</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css"></link>
+ <!--[if IE]> 
+ 
+ <style type="text/css">
+ #desloca{
+position:absolute;
+top:50px;
+z-index:12;
+}
+ #formCad{
+  position:absolute;
+  background-color:0;
+ }
+ #rodaPe{
+ position:absolute;
+ top:950px;
+ }
+ #TForm{
+ position:relative;
+ }
+ </style>
+ <![endif]-->
+ </head>
+ <body >
+    <div id="contTopo">
+     <span id ="linha"></span>
+     <div id="faixa"></div>
+    </div>
+    <div id="pagina">
+	 <div id="topo">
+	    <div id="faixa"></div>
+		<div id="login">
+		  <form id="loginform">
+		    <label>e-mail:</label>
+			<input type="text" name="email" class="logins" id="email" size="18"></input>
+			<label>senha:</label>
+			<input type="password" name="senha" class="logins"size="18"></input>
+			<input id="btnLogin" type="submit"  action="submit" value="LOGIN" ></input>
+		  </form>
+		</div>
+		<div id="logo">
+		 <div id="box"></div>
+		 <span id ="linha"></span>
+		<img id="logotipo" src="logo.png"></img>
+		</div>
+		<span id="busca">
+		<form id="buscar">
+		 <input type="text" name="TxtBusca" size="45"></input>
+		 <input id="btnBusca" type="submit" action="submit" value="Buscar"></input>
+		</form>
+		</span>
+		<span id="casdastro">
+		  <ul id="cadastra">
+		    <li><a href="cadastro.html" id="cad">Cadastrar</a></li>
+		    <li id="EqcPass">Esqueci a senha
+			   <ul id="EqcUl">
+			    <li>
+			     <span id="content" >
+	               <h2 id="envia">Digite seu e-mail</h2>
+	                <form id="formPass">
+	                 <input type="text" name="mail" size="20"  ></input>
+	                 <input type="submit" action="submit" id="btnEnvia"  value="Enviar" >
+					 
+	            </span>
+			    </li>
+			   </ul>
+			</li>
+		    <li><a href="sobre.html" id="sob">Sobre</a></li>
+		  </ul>
+		</span>
+		<span id="menuTopo">
+		 <ul id="topoMenu">
+		    <li><a href="index.html">Menu principal</a></li>
+		    <li>Destilados</li>
+		    <li>Chopp</li>
+		    <li>Cervejas</li>
+		    <li>Energéticos</li>
+		    <li>Sucos</li>
+		    <li>Lácteos</li>
+			<li>Refrigerantes</li>
+		    <li id="tab" >Tabacaria</li>
+		 </ul>
+		</span>
+	 </div>
+	
+	 <div id="formCad">
+	    <div id="desloca">
+	    <h1 id="TForms">Formulário de Cadastro</h1>
+		 <div id="TForm"class="fio"></div>
+	    <form name="formularioDeCadastro" action="" method="POST">
+		 <ul>
+		 <li><label>Nome:</label><input type="text" name="" size="30" maxlength=""></input><span class="as">*</span></li>
+		 <li><label>SobreNome:</label><input type="text" name="" size="30" maxlength=""></input><span class="as">*</span></li>
+		 <div class="fio"></div>
+		 <li><label>Nome Da Empresa:</label><input type="text" name="" size="40" maxlength=""></input><span class="as">*</span></li>
+		 <li><label>Endereço:</label><input type="text" name="" size="30" maxlength="14"></input><span class="as">*</span></li>
+		 <li><label>CPNJ:</label><input type="text" name="" size="10" maxlength="14"></input><span class="as">*</span></li>
+		 <li><label>CEP:</label><input type="text" name="" size="8" maxlength="8"></input><span class="as">*</span></li>
+		  <div class="fio"></div>
+		 <li><label>E-Mail:</label><input type="text" name="" size="30" maxlength=""></input><span class="as">*</span></li>
+		 <li><label>WebSite:</label><input type="text" name="" size="30" maxlength=""></input></li>
+		 <li><label>Telefone:</label><input type="text" name="" size="10" maxlength="10"></input><span class="as">*</span></li>
+		 <li><label>Telefone Celular:</label><input type="text" name="10" size="10" maxlength="11"></input><span class="as">*</span></li>
+		 <div class="fio"></div>
+		 <li><label>Senha:</label><input type="password" name="" size="10" maxlength=""></input><span class="as">*</span></li>
+		 <li><label></label><input type="submit" id="BtnCad" action="submit" value="Cadastrar" ></input></li>
+		 </ul>
+		</form>
+       </div>	 
+	 </div>
+	 <div id="rodaPe">
+	   <div id="contRodaPe"></div>
+	   </div>
+	 </div>
+	 </body>
+	 </html>
